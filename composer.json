@@ -1,0 +1,21 @@
+{
+    "name": "lord2800/spy.php",
+    "description": "A mock utility for spying on class and function callbacks",
+    "require-dev": {
+        "phpunit/phpunit": "dev-master",
+        "squizlabs/php_codesniffer": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff Hubbard",
+            "email": "lord2800@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Spy\\": "src/"
+        }
+    }
+}
